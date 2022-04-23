@@ -107,6 +107,10 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
+    gap: 5rem;
+    padding: 40px;
+
 }
 
 .items-container{
@@ -124,12 +128,11 @@ a{
 }
 
 .item.image{
-    display: flex;
+    display: block;
     box-sizing: border-box;
     border: 5px var(--button-color) solid;
     height: 10rem;
     width: 10rem;
-    place-content: center;
     border-radius: 10px;
 }
 
