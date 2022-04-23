@@ -5,6 +5,7 @@
     --link-color: #E5E7EB;
     --hero-main-style: 48px extra-bold;
     --header-footer-bgrd: #1F2937;
+    --button-color: #3882F6;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -14,24 +15,25 @@ body{
 }
 header{
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 10px 30px;
-    
+    margin: 0px;
     background-color: var(--header-footer-bgrd);
 
 }
 
 .logo{
-    width: 200px;
+    width: 300px;
     font-size: 24px;
     color: var(--logo-color);
 }
 
 nav{
     display: flex;
-    width: 200px;
+    width: 300px;
     justify-content: space-between;
     color: var(--link-color);
     font-size: 18px;
@@ -42,3 +44,61 @@ a{
     text-decoration: none;
 
 }
+
+/*Hero-main*/
+
+.hero-main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 50px 30px;
+    background-color: var(--header-footer-bgrd);
+    color: var(--link-color);
+}
+
+.hero-main-container > div{
+ 
+    width: 400px;
+    height: auto;
+    flex-shrink: 1;
+}
+
+.hero-main.textbox > h2{
+    font-size: 48px;
+    margin:0px;
+
+}
+.hero-main.textbox{
+    display: block;
+
+}
+.hero-main.textbox >*{
+    display: inline-block;
+  
+}
+
+.hero-main.textbox > button{
+    background-color: var(--button-color);
+    width: 45%;
+    border-radius: 5px;
+    border: 0px;
+    color: var(--link-color);
+}
+
+
+
+.hero-main.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303d51;
+}
+
+
+
+
+
+
