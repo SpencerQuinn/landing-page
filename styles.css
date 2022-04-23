@@ -61,7 +61,7 @@ a{
 
 .hero-main-container > div{
  
-    width: 400px;
+    width: 30%;
     height: auto;
     flex-shrink: 1;
 }
