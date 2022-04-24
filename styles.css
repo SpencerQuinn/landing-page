@@ -57,7 +57,7 @@ a{
     width: 100%;
     height: auto;
     margin: 0px;
-    padding: 50px 30px;
+    padding: 100px 30px;
     background-color: var(--header-footer-bgrd);
     color: var(--link-color);
 }
@@ -108,7 +108,7 @@ a{
     flex-direction: column;
     align-items: center;
     height: auto;
-    gap: 5rem;
+    gap: 3rem;
     padding: 40px;
 
 }
@@ -137,6 +137,19 @@ a{
 }
 
 
+.quote-section{
+    display: flex;
+    place-content: center;
+    
+}
+.quote-container{
+    width: 50%;
+    text-align: center;
+}
+
+.quote-container > p{
+    text-align: right;
+}
 
 
 
