@@ -167,6 +167,41 @@ a{
     font-weight:100;
 }
 
+/*Call to Action*/
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.call-to-action-container{
+    background-color: var(--button-color);
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px 50px;
+    margin: 40px 50px;
+    border-radius: 5px;
+
+}
+
+.cta-text{
+    flex: 1 1 auto;
+
+}
+
+.call-to-action-container > button{
+    flex: .3 1 auto;
+    align-self: center;
+    height: 4vw;
+    border-style: none;
+    border-radius: 5px;
+    
+}
+
 
 
 
