@@ -221,6 +221,17 @@ a{
     
 }
 
+footer{
+    background-color: var(--header-footer-bgrd);
+    color: var(--logo-color);
+    font-size: 12px;
+    height: auto;
+    text-align: center;
+}
+footer > div{
+    padding: 20px;
+}
+
 
 
 
